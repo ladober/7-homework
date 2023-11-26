@@ -1,0 +1,64 @@
+.header-wraper {
+    background-color: white;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.ul {
+    display: none;
+}
+
+.burger-menu {
+    display: flex;
+    align-items: center;
+}
+
+/* section-1 */
+
+.section {
+    background-color: white;
+    text-align: center;
+}
+.section h1 {
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.section article {
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin: 40px;
+    line-height: 28px;
+}
+
+.button {
+    border-radius: 32px;
+    width: 90px;
+    height: 40px;
+    background: black;
+}
+
+.button a {
+    color: white;
+}
+
+.section p {
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding: 40px;
+}
+
+/* .section-a {
+    position: absolute;
+    top: 40px;
+} */
+
+

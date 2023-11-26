@@ -1,0 +1,12 @@
+@media all and (min-width: 375px){
+    
+}
+
+@media all and (min-width: 744px){
+    .ul {
+        display: flex;
+        min-width: 320px;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
