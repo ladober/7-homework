@@ -1,5 +1,6 @@
 @media all and (min-width: 375px){
-    
+    .button-menu {
+    }
 }
 
 @media all and (min-width: 744px){
@@ -8,5 +9,337 @@
         min-width: 320px;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .button-menu{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* section-2 */
+
+    .section-article-p {
+        max-width: 744px;
+    }
+
+    .section-3-h1 {
+        max-width: 696px;
+    }
+    
+    .section-3-h1 h1 {
+        text-align: center;
+        color: white;
+        font-weight: 900;
+        font-size: 2.4rem;
+        max-width: 696px;
+        padding: 20px;
+    }
+
+    .section-3-article {
+        color: white;
+        max-width: 696px;
+        text-align: center;
+    }
+    
+    .section-3-article article {
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 24px;
+        margin-left: 30px;
+    }
+    
+    .section-3-p {
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 24px;
+        margin-left: 35px;
+        margin-top: 20px;
+    }
+
+    .footer-brand {
+        justify-content:flex-start;
+        margin-left: 40px;
+    }
+    .footer-items-color {
+        justify-content:flex-start;
+    }
+
+    .footer-columns {
+        margin-top: 20px;
+        padding: 20px;
+        margin-left: 20px;
+        gap: 15px;
+    }
+}
+
+@media all and (min-width: 1024px) {
+
+    .ul a {
+        font-weight: 500;
+        font-size: 1.6rem;
+    }
+    .section {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .section-1 {
+        max-width: 630px;
+    }
+    .section h1 {
+        font-size: 5.6rem;
+        line-height: 60px;
+        text-align: center;
+    }
+
+    .section-button-p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-a {
+        margin-top: 40px;
+    }
+
+    /* section-2 */
+
+    .section-article {
+        background: #F3F3F3;
+        display: flex;
+        margin-top: 20px;
+    }
+    
+    .article-item {
+        align-items: start;
+    }
+
+    .section-article span {
+        margin-left: 20px;
+    }
+    .section-article-p {
+        max-width: 279px;
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 24px;
+        padding: 20px;
+        text-align: left;
+    }
+
+    /* section-3 */
+
+    .section-3 img {
+        margin-top: 40px;
+    }
+
+    .section-3-h1 {
+        margin: 0;
+        max-width: 415px;
+        margin-top: -65px;
+    }
+    .section-3-mover {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px 5px;
+    }
+    .section-3-h1 h1 {
+        color: white;
+        font-weight: 900;
+        font-size: 2.4rem;
+        text-align: left;
+        max-width: 415px;
+        line-height: 32px;
+    }
+    
+    .section-3-article {
+        color: white;
+        max-width: 415px;
+        text-align: left;
+    }
+    
+    .section-3-article article {
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 24px;
+    }
+    
+    .section-3-p {
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 24px;
+        margin-top: 20px;
+    }
+
+    /* footer */
+    
+    .footer-brand {
+        margin-left: 60px;
+    }
+    
+    .footer-columns {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 40px;
+    }
+
+    .footer-items-color {
+        margin-top: 20px;
+    }
+}
+
+@media all and (min-width: 1440px) {
+    .section {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .section-1 {
+        max-width: 490px;
+        text-align: left;
+    }
+    .section h1 {
+        text-align: left;
+    }
+
+    .section article {
+        margin: 0px;
+        margin-top: 20px;
+    }
+
+    .button {
+        border-radius: 32px;
+        width: 140px;
+        height: 40px;
+        background: black;
+    }
+    .section-button-p {
+        max-width: 336px;
+    }
+
+    .section p {
+        font-weight: 600;
+        font-size: 1.4rem;
+    }
+
+    /* section-2 */
+
+    .section-article {
+        background: #F3F3F3;
+        display: flex;
+        margin-top: 40px;
+        justify-content: center;
+    }
+    
+    .article-item {
+        padding: 10px;
+        margin-top: 20px;
+    }
+    
+    .section-article-p {
+        max-width: 360px;
+    }
+
+    /* section-3 */
+
+    .section-3-items {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .section-3-mover {
+        display: block;
+        margin-top: 90px;
+    }
+
+    .section-3 {
+        display: block;
+        background-color: black;
+    }
+
+    .section-3-h1 {
+        max-width: 503px;
+    }
+    
+    .section-3 h1 {
+        margin-left: -20px;
+    }
+    .section-3-article {
+        color: white;
+        max-width: 503px;
+    }
+    
+    .section-3-article article {
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 24px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    
+    .section-3-p {
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 24px;
+        margin-top: 20px;
+        margin-left: 0;
+    } 
+
+    .section-img {
+        padding-top: 20px;
+    }
+    /* footer */
+
+    .footer-items-color {
+        color: white;
+        height: 240px;
+        justify-content: space-around;
+        margin-left: -40px;
+    }
+    
+    .footer-1440-style {
+        display: flex;
+        justify-content: space-around;
+        max-width: 1140px;
+        padding-left: 100px;
+    }
+    .footer-brand {
+        display: block;
+        padding-top: 40px;
+        padding-left: 40px;
+    }
+    
+    .footer-columns {
+        display: flex;
+        gap: 30px;
+    }
+
+    .subscribe {
+        height: 88px;
+        color: white;
+        font-weight: 700;
+        font-size: 1.6rem;
+        line-height: 24px;
+        padding-top: 38px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .subscribe p {
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 20px;
     }
 }

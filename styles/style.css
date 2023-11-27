@@ -46,6 +46,18 @@
     background: black;
 }
 
+.button-menu {
+    display: none;
+    border-radius: 32px;
+    width: 90px;
+    height: 40px;
+    background: black;
+}
+
+.button-menu a {
+    color: white;
+}
+
 .button a {
     color: white;
 }
@@ -54,6 +66,10 @@
     font-weight: 600;
     font-size: 1.4rem;
     padding: 40px;
+}
+
+.section-1 {
+    
 }
 
 /* section-2 */
@@ -147,7 +163,9 @@
 /* section-4 */
 
 .section-img {
+    display: flex;
     background-color: black;
+    justify-content: center;
 }
 
 .section-img img {
@@ -160,4 +178,28 @@ footer {
 
 .footer-items-color {
     color: white;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.footer-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.footer-columns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 24px;
 }
